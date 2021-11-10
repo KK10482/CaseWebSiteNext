@@ -1,0 +1,20 @@
+.headerRoot {
+    color: #337ab7;
+  }
+
+.headerRoot .MuiTypography-root{
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+
+.headerRoot .MuiSvgIcon-root{
+    color: #337ab7;
+    font-size: 28px;
+}
+
+.HomeContent{
+  margin-top: 10px;
+}

@@ -1,0 +1,51 @@
+.formpageContent{
+    margin: 10px;
+    padding: 10px;
+}
+
+.formpageContent .MuiFormControl-root{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    
+}
+
+.formTitle{
+    color :#337ab7;
+    font-weight: bold;
+}
+
+.formItalic{
+    font-style: italic;
+}
+
+.formStaticContent{
+    padding : 30px;
+}
+
+.formCaseTitle{
+    font-weight: bold;
+}
+
+.formCaseAddress{
+    text-align: justify;
+}
+
+.formContent {
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.formContentTitle {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.formInnerContent{
+    text-align: justify;
+    padding-top: 15px;
+}
