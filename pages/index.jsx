@@ -7,17 +7,15 @@ import { Box } from '@mui/system';
 export default function index() {
   return (
     <PageLayout>
-      <Box sx={{ p: 5}}  >
-        <Grid container spacing={3}>
+      <Box sx={{ pt: 5}}  >
+        <Grid container spacing={1}>
           <Grid item xs={12} md={8}>
             <homeContent.CaseInfo />
             <homeContent.AboutCase />
           </Grid>
           <Grid item xs={12} md={4}>
             <homeContent.CaseForms />
-            <br />
             <homeContent.CaseDocuments />
-            <br />
             <homeContent.CaseMilestones />
           </Grid>
         </Grid>

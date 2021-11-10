@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 
 export default function optout() {
     return (
-        <Paper  elevation={0} className='formStaticContent'>
+        <Paper  className='formStaticContent'>
             <Typography gutterBottom variant="body2" component="div" className='formCaseTitle'>{CaseInfo.CaseName}</Typography>
             <Typography gutterBottom variant="body2" component="div" className='formCaseAddress'>Case No. C-03-CV-21-001091</Typography>
             <Typography gutterBottom variant="body2" component="div" className='formCaseAddress'>Baltimore County Circuit Court, Maryland</Typography>

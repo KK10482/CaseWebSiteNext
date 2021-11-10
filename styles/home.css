@@ -18,3 +18,15 @@
 .HomeContent{
   margin-top: 10px;
 }
+
+.MuiGrid-root{
+  margin-top: 5px;
+}
+
+.MuiPaper-root{
+  margin-top: 5px;
+}
+
+.MuiCardHeader-root{
+  padding: 5px;
+}

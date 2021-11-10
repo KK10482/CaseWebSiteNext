@@ -12,7 +12,7 @@ const useStyles = makeStyles({
       },
     tableCell: {
         padding: "0px 10px",
-        borderBottom: "none"
+        // borderBottom: "none"
     }
 
 

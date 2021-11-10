@@ -4,6 +4,8 @@ import Footer from './footer';
 import Head from 'next/head'
 import { Box } from '@mui/system';
 import * as CaseInfo from '../../global';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
 
 export default function pageLayout({ children }) {
     return (
@@ -14,9 +16,13 @@ export default function pageLayout({ children }) {
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
             </Head>
             <Header />
-            {children}
-            <Box id="pageLayoutBox" display="flex" justifyContent="center" mt={2} mb={2}>
-            </Box>
+            <CssBaseline />
+            <Container maxWidth='lg'>
+                
+                {children}
+                <Box id="pageLayoutBox" display="flex" justifyContent="center" mt={2} mb={2}>
+                </Box>
+            </Container>
             <Footer />
         </>
     )

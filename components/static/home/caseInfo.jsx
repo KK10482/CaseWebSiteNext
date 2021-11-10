@@ -16,8 +16,6 @@ const useStyles = makeStyles({
         padding: "0px 10px",
         borderBottom: "none"
     }
-
-
 });
 
 export default function CaseInfo() {
